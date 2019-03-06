@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+div {
+	background-color: #00FFFF;
+}
+p {
+	width: 50%;
+	height: 40%;
+	border: 1px solid black;
+	float: left;
+	padding: 5px;
+}
+
+#p1 {
+	background-color: #A52A2A;
+}
+#p2 {
+	background-color: #DEB887;
+	 
+}
+
+#p3 {
+	background-color:#5F9EA0;
+}
+#p4 {
+	background-color: #FF7F50;
+}
+section {
+	clear: left;
+}
+
