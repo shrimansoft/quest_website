@@ -77,4 +77,7 @@ class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
 
 def about(request):
-    return render(request, 'blog/about.html', {'title': 'About'})
+    context={
+        "users":User.objects.all(),'title': 'About'
+    }
+    return render(request, 'blog/about.html', context)
