@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['192.168.0.3', 'localhost', '127.0.0.1','192.168.0.4','192.168.
 # Application definition
 
 INSTALLED_APPS = [
+    'clues.apps.CluesConfig',
     'blog.apps.BlogConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
